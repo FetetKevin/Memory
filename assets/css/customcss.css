@@ -1,0 +1,48 @@
+.top {
+    background: url('../images/block2.png') repeat center;
+    height: 50px;
+    box-shadow: 0px 10px 5px black;
+}
+.bot {
+    background: url('../images/block.png') repeat center;
+    height: 50px;
+    box-shadow: 0px 10px 5px black;
+}
+.banniere {
+    background: url('../images/banniere2.gif') no-repeat;
+    background-size: cover;
+    height: 200px;
+    margin-top: 3px;
+}
+body {
+    background: url('../images/bg2.png') no-repeat center;
+    background-size: cover;
+}
+button{
+    margin-top:7px;
+    margin-bottom:7px;
+    border: 3px solid grey;
+    background: black;
+    border-radius: 10px;
+    color: white;
+}
+div#memory_board{
+    background: black;
+    border: 3px solid grey;
+    padding:24px;
+    margin:0 auto;
+    border-radius: 10px;
+}
+div#memory_board > div{
+    background: url(../images/card.png) no-repeat center;
+    background-size: cover;
+    height:150px;
+    margin:10px;
+    padding:20px;
+    font-size:64px;
+    cursor:pointer;
+    text-align:center;
+    border-radius: 5%;
+    border: 7px solid whitesmoke;
+    margin-left: 18px;
+}
